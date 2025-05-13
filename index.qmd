@@ -14,6 +14,14 @@ date-format: 'D.MM.YYYY'
 format: html
 ---
 
-## Обо мне
+##  Обо мне
 
-фыв
+- полевой исследователь (31 поездка, почти все на Кавказ)
+- фонетист, фонолог, квантитативный лингвист, занимаюсь линвистической географией
+- преподаю статистику с применением R
+- участвовал и руководил мастерской по анализу данных на Летней школе
+- записал онлайн курс ["Введение в анализ данных на R для гуманитарных и социальных наук"](https://openedu.ru/course/hse/IDAR/), [материалы](https://agricolamz.github.io/daR4hs/) доступны онлайн
+- написал несколько лингвистических пакетов для R
+    - [`lingtypology`](https://ropensci.github.io/lingtypology/)
+    - [`phonfieldwork`](https://docs.ropensci.org/phonfieldwork/)
+    - [`lingglosses`](https://github.com/agricolamz/lingglosses)
