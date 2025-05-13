@@ -137,13 +137,14 @@ knitr::include_graphics("images/06_paris.png")
 ### `ggplot2` 
 
 ```{r}
-read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv") |> 
+read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv",
+         show_col_types = FALSE) |> 
   st_as_sf(coords = c("longitude", "latitude"),
          crs = "+proj=lonlat") |> 
   st_transform(3857) ->
   starodub
 
-tile <- get_tiles(starodub, provider = "OpenTopoMap", zoom = 12)
+tile <- get_tiles(starodub, provider = "OpenTopoMap", zoom = 16)
 
 ggplot() +
   geom_spatraster_rgb(data = tile, alpha = 0.3) +
@@ -156,7 +157,6 @@ ggplot() +
 
 ```{r}
 starodub <- read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv")
-
 
 starodub |> 
   leaflet() |>  
