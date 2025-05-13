@@ -51,7 +51,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#анализ-пространственных-данных" id="toc-анализ-пространственных-данных" class="nav-link" data-scroll-target="#анализ-пространственных-данных">Анализ пространственных данных</a>
   <ul class="collapse">
   <li><a href="#пространственные-примитивы" id="toc-пространственные-примитивы" class="nav-link" data-scroll-target="#пространственные-примитивы">Пространственные примитивы</a></li>
+  <li><a href="#картографические-проекции" id="toc-картографические-проекции" class="nav-link" data-scroll-target="#картографические-проекции">Картографические проекции</a></li>
+  <li><a href="#география-время" id="toc-география-время" class="nav-link" data-scroll-target="#география-время">География + время</a></li>
   </ul></li>
+  <li><a href="#пакеты-для-визуализации-географических-данных-в-r" id="toc-пакеты-для-визуализации-географических-данных-в-r" class="nav-link" data-scroll-target="#пакеты-для-визуализации-географических-данных-в-r">Пакеты для визуализации географических данных в R</a></li>
   </ul>
 </nav>
 </div>
@@ -60,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Работа с геоданными в R</h1>
+<p class="subtitle lead"><a href="https://agricolamz.github.io/2025.05.16_HSE_R_Meet_Up" class="uri">https://agricolamz.github.io/2025.05.16_HSE_R_Meet_Up</a></p>
 </div>
 
 
@@ -95,13 +99,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Мне хочется выразить благодарность Евгению&nbsp;Николаевичу&nbsp;Матерову за его блог и телеграм-канал “Наука и данные”&nbsp;(<a href="https://t.me/naukaidannye" class="uri">https://t.me/naukaidannye</a>), которые значительно упростили написание данной лекции.</p>
 <section id="обо-мне" class="level2">
 <h2 class="anchored" data-anchor-id="обо-мне">Обо мне</h2>
 <ul>
 <li>полевой исследователь (31 поездка, почти все на Кавказ)</li>
 <li>фонетист, фонолог, квантитативный лингвист, занимаюсь линвистической географией</li>
 <li>преподаю статистику с применением R</li>
-<li>участвовал и руководил мастерской по анализу данных на Летней школе</li>
+<li>преподавал и руководил <a href="https://www.letnyayashkola.org/andan/">мастерской по анализу данных</a> на Летней школе</li>
 <li>записал онлайн курс <a href="https://openedu.ru/course/hse/IDAR/">“Введение в анализ данных на R для гуманитарных и социальных наук”</a>, <a href="https://agricolamz.github.io/daR4hs/">материалы</a> доступны онлайн</li>
 <li>написал несколько лингвистических пакетов для R
 <ul>
@@ -137,8 +142,97 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>Эти единицы поддерживают популярные пакеты для манипуляции с георграфическими объектами: <code>sp</code>, <code>sf</code> и другие. В данном разделе мы не будем учиться операциям с этими объектами (объединение, вычитание и т. п., подробности смотрите в документации к пакету <code>sp</code>).</p>
+<p>Эти единицы поддерживают популярные пакеты для манипуляции с георграфическими объектами: <code>sp</code>, <code>sf</code> и другие. В данном разделе мы не будем учиться операциям с этими объектами (объединение, вычитание и т. п., подробности смотрите в документации к пакету <code>sp</code>). Все эти единицы относятся к векторному типу данных.</p>
+<p>Кроме того, существует отдельный тип географических данных — растровый. Такой тип данных подразумевает, некоторую регулярную сетку измерений, например, квадратов, в которых произведен замер (количество выпавших осадков, высотность, граница суши и др.).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/02_snow_prob.jpg" class="img-fluid figure-img" width="1498"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Векторные и растровые данные обычно решают разные задачи. Часто во время анализа необходимо комбинировать разные типы данных: например, мы в лаборатории давно мечтаем, чтобы кто-то дигитализировал дороги из старых карт Дагестана, так как современные дороги не отражают исторических связей между населенными пунктами. Бывает и обратное: например, для того, чтобы сделать вывод о ДТП в Москве, имеет смысл перейти от конкретных географических координат к некоторой обобщенной растровой сетке. Важно еще сказать, что легче искать связи в растровых данных, так как становится доступна картографическая алгебра:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/03_map_algebra.png" class="img-fluid figure-img" width="400"></p>
+</figure>
+</div>
+</div>
+</div>
 </section>
+<section id="картографические-проекции" class="level3">
+<h3 class="anchored" data-anchor-id="картографические-проекции">Картографические проекции</h3>
+<p>Любое отображение некоторого небесного тела на плоскость называют картографической проекцией.</p>
+<p>Если расстояния в ваших данных небольшие (особенно, если координаты близки к экватору), широту и долготу можно без страха использовать как оси в декартовой системе координат (она же — проекция Меркатора). Однако при работе с данными масштаба страны/континента/планеты такой подход будет накапливать ошибку из-за искажений одного из следующих типов:</p>
+<ul>
+<li>искажения длин;</li>
+<li>искажения углов;</li>
+<li>искажения площадей;</li>
+<li>искажения форм.</li>
+</ul>
+<p>Проекция Меркатора очень сильно искажает площади:</p>
+<div class="cell quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/04-Merkator-1.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>исходный</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/05-Merkator-2.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>с сохранением площадей</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>источник — Википедия</p>
+</div>
+</div>
+</div>
+<ul>
+<li><a href="https://projectionwizard.org/">веб-приложение</a>, помогающее выбрать подходящую проекцию</li>
+<li><a href="https://mathigon.org/course/circles/spheres-cones-cylinders#sphere-maps">веб-приложение</a>, которое показывает как изменяются объекты при преобразовании с сферы на одну из четырех проекций (Меркатора, цилиндрическую, Робинсона, Моллвейде)</li>
+<li><a href="https://proj.org/en/latest/operations/projections/all_images.html">Здесь</a> содержится список всех возможных проекций</li>
+</ul>
+</section>
+<section id="география-время" class="level3">
+<h3 class="anchored" data-anchor-id="география-время">География + время</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_paris.png" class="img-fluid figure-img" width="2402"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="пакеты-для-визуализации-географических-данных-в-r" class="level2">
+<h2 class="anchored" data-anchor-id="пакеты-для-визуализации-географических-данных-в-r">Пакеты для визуализации географических данных в R</h2>
+<ul>
+<li>Интерактивные
+<ul>
+<li><a href="https://rstudio.github.io/leaflet/index.html"><code>leaflet</code></a></li>
+<li><a href="https://walker-data.com/mapgl/index.html"><code>mapgl</code></a></li>
+</ul></li>
+<li>Статические
+<ul>
+<li><code>ggplot2</code> + <code>sf</code>, <code>tidyterra</code>, <code>maptiles</code></li>
+<li>…</li>
+</ul></li>
+</ul>
 </section>
 
 </main>
