@@ -1,0 +1,19 @@
+---
+title: "Работа с геоданными в R"
+author:
+  - name: Георгий Мороз
+    affiliations:
+      - name: Международная лаборатория языковой конвергенции НИУ ВШЭ
+lang: ru
+language: 
+  title-block-affiliation-single: ""
+  title-block-author-single: ""
+  title-block-published: ""
+date: '05/16/2025'
+date-format: 'D.MM.YYYY'
+format: html
+---
+
+## Обо мне
+
+фыв
