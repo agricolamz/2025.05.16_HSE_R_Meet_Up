@@ -39,10 +39,22 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Содержание</h2>
+   
+  <ul>
+  <li><a href="#обо-мне" id="toc-обо-мне" class="nav-link active" data-scroll-target="#обо-мне">Обо мне</a></li>
+  <li><a href="#анализ-пространственных-данных" id="toc-анализ-пространственных-данных" class="nav-link" data-scroll-target="#анализ-пространственных-данных">Анализ пространственных данных</a>
+  <ul class="collapse">
+  <li><a href="#пространственные-примитивы" id="toc-пространственные-примитивы" class="nav-link" data-scroll-target="#пространственные-примитивы">Пространственные примитивы</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -98,6 +110,35 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/agricolamz/lingglosses"><code>lingglosses</code></a></li>
 </ul></li>
 </ul>
+</section>
+<section id="анализ-пространственных-данных" class="level2">
+<h2 class="anchored" data-anchor-id="анализ-пространственных-данных">Анализ пространственных данных</h2>
+<p>Анализ данных может включать</p>
+<ul>
+<li>сбор данных</li>
+<li>очистку данных и их предобработку</li>
+<li>визуализацию данных</li>
+<li>моделирование данных</li>
+<li>дескриптивный анализ</li>
+<li>предиктивный анализ</li>
+<li>машинное обучение</li>
+<li>…</li>
+</ul>
+<p>Анализ пространственных данных — анализ данных, который основывается на понятиях места, расстояний и пространственного взаимодействия как ключевых признаков данных и использует особые инструменты и методы для хранения, визуализации и исследования такого типа данных.</p>
+<section id="пространственные-примитивы" class="level3">
+<h3 class="anchored" data-anchor-id="пространственные-примитивы">Пространственные примитивы</h3>
+<p>В картографии существуют свои элементарные единицы:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/01_geometries.png" class="img-fluid figure-img" width="300"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Эти единицы поддерживают популярные пакеты для манипуляции с георграфическими объектами: <code>sp</code>, <code>sf</code> и другие. В данном разделе мы не будем учиться операциям с этими объектами (объединение, вычитание и т. п., подробности смотрите в документации к пакету <code>sp</code>).</p>
+</section>
 </section>
 
 </main>
