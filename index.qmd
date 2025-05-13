@@ -14,9 +14,19 @@ date: '05/16/2025'
 date-format: 'D.MM.YYYY'
 format: html
 toc: true
+editor_options: 
+  chunk_output_type: console
 ---
 
 Мне хочется выразить благодарность Евгению Николаевичу Матерову за его блог и телеграм-канал "Наука и данные" (<https://t.me/naukaidannye>), которые значительно упростили написание данной лекции.
+
+```{r}
+library(leaflet)
+library(tidyverse)
+library(sf)
+library(maptiles)
+library(tidyterra)
+```
 
 ##  Обо мне
 
@@ -120,6 +130,54 @@ knitr::include_graphics("images/06_paris.png")
     - `ggplot2` + `sf`, `tidyterra`, `maptiles`
     - ...
 
+Давайте нарисуем данные кладбища Стародуб (данные полевого архива [SFIRA](https://sfira.org/)).
+
+::: {.panel-tabset}
+
+### `ggplot2` 
+
+```{r}
+read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv") |> 
+  st_as_sf(coords = c("longitude", "latitude"),
+         crs = "+proj=lonlat") |> 
+  st_transform(3857) ->
+  starodub
+
+tile <- get_tiles(starodub, provider = "OpenTopoMap", zoom = 12)
+
+ggplot() +
+  geom_spatraster_rgb(data = tile, alpha = 0.3) +
+  geom_sf(data = starodub)+
+  theme_minimal()+
+  labs(x = NULL, y = NULL, color = NULL)
+```
+
+### `leaflet` 
+
+```{r}
+starodub <- read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv")
+
+
+starodub |> 
+  leaflet() |>  
+  addProviderTiles("OpenTopoMap") |> 
+  addCircles(lng = ~longitude, # обратите внимание на особый синтаксис с тильдой
+             lat = ~latitude,
+             color = "black",
+             label = ~tombstone_code,
+             opacity = 1)
+```
+
+:::
+
+
+```{r}
+#| echo: false
+
+knitr::include_graphics("images/07_airplane.jpg")
+```
+
+
 ## Моделирование
 
 Моделирование пространственных отношений позволяет отвечать на вопросы:
@@ -128,163 +186,27 @@ knitr::include_graphics("images/06_paris.png")
 - Правда ли, что сходные значения имеют тенденцию находиться рядом?
 - Можно ли выделить какие-то регионы концентрации каких-то из значений?
 
-Однако для ответа на все эти вопросы мы прежде всего должны построить граф соседства.
-
-## Языковое сходство рутульских идиомов
-
-```{r}
-read_csv("data/rutul_points.csv") |> 
-  st_as_sf(coords = c("lon", "lat"),
-         crs = "+proj=lonlat") |> 
-  st_transform(3857) ->
-  points
-
-read_csv("data/rutul_lines.csv") |> 
-  st_as_sf(coords = c("lon", "lat"),
-           crs = "+proj=lonlat") |> 
-  group_by(ID, linguistic_similarity) |> 
-  summarize() |> 
-  st_cast("MULTILINESTRING") |>  
-  st_transform(3857) ->
-  lines_as_st
-
-tile <- get_tiles(points, provider = "OpenTopoMap", zoom = 12)
-
-ggplot() +
-  geom_spatraster_rgb(data = tile, alpha = 0.3) +
-  geom_sf(data = lines_as_st, aes(color = linguistic_similarity), linewidth = 2)+
-  geom_sf_label(data = points, aes(label = village))+
-  theme_minimal()+
-  scale_color_gradient(low = "royalblue", high = "tomato")+
-  labs(x = NULL, y = NULL, color = NULL)
-```
-
-## Как определить соседей?
+Однако для ответа на все эти вопросы мы прежде всего должны построить граф соседства. Как определить соседей?
 
 ```{r}
 #| out-width: 100%
 #| fig-align: center
 
-include_graphics("images/04-neighbour.png")
+knitr::include_graphics("images/08-neighbour.png")
+knitr::include_graphics("images/09-neighbour.png")
+knitr::include_graphics("images/10-neighbour.png")
 ```
 
 Из курса М. Фляйшманна "Spatial Data Science for Social Geography"
 
-## Как определить соседей?
-
-```{r}
-#| out-width: 100%
-#| fig-align: center
-
-include_graphics("images/05-neighbour.png")
-```
-
-Из курса М. Фляйшманна "Spatial Data Science for Social Geography"
-
-## Как определить соседей?
-
-```{r}
-#| out-width: 100%
-#| fig-align: center
-
-include_graphics("images/06-neighbour.png")
-```
-
-Из курса М. Фляйшманна "Spatial Data Science for Social Geography"
-
-## Пространственная автокорреляция
+### Пространственная автокорреляция
 
 Степень в какой сходные значения находятся рядом.
 
 - положительная автокорреляция: похожие значения находятся рядом
 - отрицательная автокорреляция: похожие значения находятся далеко друг от друга
-
-\pause
-
 - глобальная: имеют ли значения тенденцию оказываться рядом с другими похожими/непохожими значениями;
 - локальная: существует ли некоторый специфический фрагментм пространства, где наблюдается необычная концентрация похожими/непохожих значений.
-
-```{r}
-#| include: false
-
-df <- read_csv("data/east_caucasian_morning_greetings.csv")
-
-df |> 
-  select(lat, lon) |> 
-  tri2nb() |> 
-  nb2listw(style="W", zero.policy=TRUE) |> 
-  moran(x = df$value |> factor() |> as.double(),
-        n = nrow(df), 
-        S0 = nrow(df),
-        listw = _) ->
-  moran_i
-```
-
-## Значение Moran I: `r moran_i$I`
-
-```{r}
-#| include: false
-
-read_csv("data/east_caucasian_morning_greetings.csv") |> 
-  st_as_sf(coords = c("lon", "lat"),
-           crs = "+proj=lonlat") |> 
-  st_transform(3857) ->
-  east_caucasian_morning_greetings
-
-tile <- get_tiles(east_caucasian_morning_greetings, provider = "OpenTopoMap", zoom = 10)
-```
-
-
-```{r}
-ggplot() +
-  geom_spatraster_rgb(data = tile, alpha = 0.5) +
-  geom_sf(data = east_caucasian_morning_greetings, color = "black", size = 4) +
-  geom_sf(data = east_caucasian_morning_greetings, aes(color = value), size = 3) +
-  coord_sf(crs = 3857)+
-  theme(text = element_text(size = 20))+
-  theme_minimal()+
-  labs(color = NULL,
-       caption = "data Naccarato, Verhees (2021). 'Morning greetings'. In: TALD")
-```
-
-```{r}
-#| include: false
-
-df <- read_csv("data/east_caucasian_palatalized_consonants.csv")
-
-df |> 
-  select(lat, lon) |> 
-  tri2nb() |> 
-  nb2listw(style="W", zero.policy=TRUE) |> 
-  moran(x = df$value |> factor() |> as.double(),
-        n = nrow(df), 
-        S0 = nrow(df),
-        listw = _) ->
-  moran_i
-```
-
-## Значение Moran I: `r moran_i$I`
-
-```{r}
-read_csv("data/east_caucasian_palatalized_consonants.csv") |> 
-  st_as_sf(coords = c("lon", "lat"),
-           crs = "+proj=lonlat") |> 
-  st_transform(3857) ->
-  east_caucasian_palatalized_consonants
-
-tile <- get_tiles(east_caucasian_palatalized_consonants, provider = "OpenTopoMap", zoom = 10)
-
-ggplot() +
-  geom_spatraster_rgb(data = tile, alpha = 0.5) +
-  geom_sf(data = east_caucasian_palatalized_consonants, color = "black", size = 4) +
-  geom_sf(data = east_caucasian_palatalized_consonants, aes(color = value), size = 3) +
-  coord_sf(crs = 3857)+
-  theme(text = element_text(size = 20))+
-  theme_minimal()+
-  labs(color = NULL,
-       caption = "data Moroz (2021). 'Palatalized consonants'. In: TALD")
-```
-
 
 ### Машинное обучение
 
