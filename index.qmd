@@ -23,11 +23,12 @@ editor_options:
 ```{r}
 #| include: false
 
-library(leaflet)
 library(tidyverse)
 library(sf)
 library(maptiles)
 library(tidyterra)
+library(leaflet)
+library(leaflet.minicharts)
 ```
 
 
@@ -37,6 +38,7 @@ library(tidyverse)
 library(sf)
 library(maptiles)
 library(tidyterra)
+library(leaflet.minicharts)
 ```
 
 ##  Обо мне
@@ -238,6 +240,31 @@ knitr::include_graphics("images/07_airplane.jpg")
 
 Иногда при анализе следует вспоминать про ошибку выжившего и работу Абрахама Вальда.
 
+Благодаря пакету `leaflet.minicharts` можно еще сделать анимацию появления надгробий в зависимости от времени.
+
+```{r}
+starodub |>   
+  filter(!is.na(year),
+         gender != "unknown") |> 
+  arrange(desc(year))  |> 
+  mutate(value = 1) |> 
+  pivot_wider(names_from = year, values_from = value, values_fill = 0) |> 
+  pivot_longer(values_to = "value", names_to = "year", `1847`:`2011`) |> 
+  group_by(tombstone_code) |> 
+  mutate(value = cumsum(value)) ->
+  starodub_sum
+
+leaflet() |> 
+  addTiles() |> 
+  addMinicharts(lng = starodub_sum$longitude,
+                lat = starodub_sum$latitude,
+                chartdata = starodub_sum$value,
+                time = starodub_sum$year, 
+                fillColor = pal(starodub_sum$gender),
+                width = 7)
+```
+
+Мы рассмотрели обычные табличные данные, но а как же другие примитивы? С ними все сложнее.
 
 
 ## Моделирование
