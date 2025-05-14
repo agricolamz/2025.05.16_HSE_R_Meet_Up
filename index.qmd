@@ -21,6 +21,17 @@ editor_options:
 Мне хочется выразить благодарность Евгению Николаевичу Матерову за его блог и телеграм-канал "Наука и данные" (<https://t.me/naukaidannye>), которые значительно упростили написание данной лекции.
 
 ```{r}
+#| include: false
+
+library(leaflet)
+library(tidyverse)
+library(sf)
+library(maptiles)
+library(tidyterra)
+```
+
+
+```{r}
 library(leaflet)
 library(tidyverse)
 library(sf)
@@ -137,18 +148,19 @@ knitr::include_graphics("images/06_paris.png")
 ### `ggplot2` 
 
 ```{r}
+#| fig-align: center
+
 read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv",
          show_col_types = FALSE) |> 
-  st_as_sf(coords = c("longitude", "latitude"),
-         crs = "+proj=lonlat") |> 
+  st_as_sf(coords = c("longitude", "latitude"), crs = "+proj=lonlat") |> 
   st_transform(3857) ->
-  starodub
+  starodub_transformed
 
-tile <- get_tiles(starodub, provider = "OpenTopoMap", zoom = 16)
+tile <- get_tiles(starodub_transformed, provider = "OpenTopoMap", zoom = 17)
 
 ggplot() +
   geom_spatraster_rgb(data = tile, alpha = 0.3) +
-  geom_sf(data = starodub)+
+  geom_sf(data = starodub_transformed)+
   theme_minimal()+
   labs(x = NULL, y = NULL, color = NULL)
 ```
@@ -156,27 +168,75 @@ ggplot() +
 ### `leaflet` 
 
 ```{r}
-starodub <- read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv")
+starodub <- read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/starodub.csv", show_col_types = FALSE)
 
 starodub |> 
   leaflet() |>  
-  addProviderTiles("OpenTopoMap") |> 
+  addProviderTiles("OpenTopoMap",   options = providerTileOptions(opacity = 0.3)) |> 
   addCircles(lng = ~longitude, # обратите внимание на особый синтаксис с тильдой
              lat = ~latitude,
              color = "black",
+             fillOpacity = 1,
              label = ~tombstone_code,
-             opacity = 1)
+             radius = 2,
+             opacity = 0)
 ```
 
 :::
 
+Удалим надгробия для которых неизвестен пол и визуализируем.
+
+::: {.panel-tabset}
+
+### `ggplot2` 
+
+```{r}
+#| fig-align: center
+
+starodub_transformed |> 
+  filter(gender != "unknown") ->
+  starodub_transformed
+  
+ggplot() +
+  geom_spatraster_rgb(data = tile, alpha = 0.3) +
+  geom_sf(aes(color = gender), data = starodub_transformed)+
+  theme_minimal()+
+  scale_color_manual(values = c("#ebc106", "#396c03")) +
+  labs(x = NULL, y = NULL, color = NULL)
+```
+
+### `leaflet` 
+
+```{r}
+starodub |> 
+  filter(gender != "unknown") |> 
+  pull(gender) |> 
+  colorFactor(c("#ebc106", "#396c03"), domain = _) ->
+  pal
+
+starodub |> 
+  filter(gender != "unknown") |> 
+  leaflet() |>  
+  addProviderTiles("OpenTopoMap",   options = providerTileOptions(opacity = 0.3)) |> 
+  addCircles(lng = ~longitude, # обратите внимание на особый синтаксис с тильдой
+             lat = ~latitude,
+             color = ~pal(gender),
+             fillOpacity = 1,
+             label = ~tombstone_code,
+             radius = 2,
+             opacity = 0)
+```
+
+:::
 
 ```{r}
 #| echo: false
+#| fig-align: center
 
 knitr::include_graphics("images/07_airplane.jpg")
 ```
 
+Иногда при анализе следует вспоминать про ошибку выжившего и работу Абрахама Вальда.
 
 ## Моделирование
 
