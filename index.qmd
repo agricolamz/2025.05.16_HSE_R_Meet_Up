@@ -457,15 +457,17 @@ leaflet() |>
 Однако для ответа на все эти вопросы мы прежде всего должны построить граф соседства. Как определить соседей?
 
 ```{r}
+#| echo: false
+#| layout-ncol: 2
 #| out-width: 100%
-#| fig-align: center
+#| fig-cap: Из курса М. Фляйшманна "Spatial Data Science for Social Geography"
+#| fig-subcap:
+#| - непосредственное соседство
+#| - соседство через радиус
 
-knitr::include_graphics("images/08-neighbour.png")
 knitr::include_graphics("images/09-neighbour.png")
 knitr::include_graphics("images/10-neighbour.png")
 ```
-
-Из курса М. Фляйшманна "Spatial Data Science for Social Geography"
 
 ### Пространственная автокорреляция
 
