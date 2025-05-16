@@ -18,7 +18,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-Мне хочется выразить благодарность Евгению Николаевичу Матерову за его блог и телеграм-канал "Наука и данные" (<https://t.me/naukaidannye>), которые значительно упростили написание данной лекции.
+Мне хочется выразить благодарность Евгению Николаевичу Матерову за его блог и телеграм-канал "Наука и данные" (<https://t.me/naukaidannye>), которые значительно упростили написание данных материалов.
 
 ```{r}
 #| include: false
@@ -264,8 +264,61 @@ leaflet() |>
                 width = 7)
 ```
 
-Мы рассмотрели обычные табличные данные, но а как же другие примитивы? С ними все сложнее.
+Мы рассмотрели обычные табличные данные, но а как же другие примитивы? С ними все сложнее. Скачаем полигоны в формате shape
 
+```{r}
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/akhvakhskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "akhvakhskiy") ->
+  akhvakhskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/botlikhskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "botlikhskiy") ->
+  botlikhskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/gumbetovskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "gumbetovskiy") ->
+  gumbetovskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/khunzakhskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "khunzakhskiy") ->
+  khunzakhskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/shamilskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "shamilskiy") ->
+  shamilskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/tlyaratinskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "tlyaratinskiy") ->
+  tlyaratinskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/tsumadinskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "tsumadinskiy") ->
+  tsumadinskiy
+
+akhvakhskiy |> 
+  bind_rows(botlikhskiy, gumbetovskiy, khunzakhskiy, shamilskiy, tlyaratinskiy, tsumadinskiy) ->
+  districts
+
+districts |> 
+  ggplot() + 
+  geom_sf(aes(geometry = geometry), fill = "grey95", color = "grey40")+
+  theme_minimal()
+
+andic_languages <- read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/andic_languages.csv")
+
+districts |> 
+  ggplot() + 
+  geom_sf(aes(geometry = geometry), fill = "grey95", color = "grey40")+
+  geom_point(aes(lon, lat, color = default_level), data = andic_languages)+
+  theme_minimal()
+```
 
 ## Моделирование
 

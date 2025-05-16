@@ -1,0 +1,284 @@
+id,village,rus_village,lat,lon,lang,aff,family,standard,default_level,dialect_toplevel,dialect_toplevel_cyr,dialect_nt1,dialect_nt1_cyr,dialect_nt2,dialect_nt2_cyr,dialect_nt3,dialect_nt3_cyr,village_dialect,gltc_lang,lang_col,aff_col,dataset_version
+8,Alak,Алак,42.6092,46.1972,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Alak,avar1256,#009999,#009999,2025-03-20
+9,Albaniya,Албания,42.2863,46.3985,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Albaniya,avar1256,#009999,#009999,2025-03-20
+11,Amishta,Амишта,42.62967,46.552971,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Amishta,avar1256,#009999,#009999,2025-03-20
+13,Amushchi Bolshoe,Амущи Большое,42.63752,46.4864,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Amushchi Bolshoe,avar1256,#009999,#009999,2025-03-20
+14,Amushchi Maloe,Амущи Малое,42.650445,46.487815,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Amushchi Maloe,avar1256,#009999,#009999,2025-03-20
+15,Anada,Анада,42.17306,46.36917,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Anada,avar1256,#009999,#009999,2025-03-20
+16,Andykh,Андых,42.5119,46.5939,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Andykh,avar1256,#009999,#009999,2025-03-20
+17,Ansalta,Ансалта,42.6939,46.1147,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Ansalta,avar1256,#009999,#009999,2025-03-20
+19,Antsukh,Анцух,42.1903743,46.3374704,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Antsukh,avar1256,#009999,#009999,2025-03-20
+24,Argvani,Аргвани,42.8128,46.5792,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Argvani,avar1256,#009999,#009999,2025-03-20
+30,Assab,Ассаб,42.471596,46.492475,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Baqluq,батлухский,Assab,ассабский,NA,NA,Assab,avar1256,#009999,#009999,2025-03-20
+32,Akhalchi,Ахалчи,42.594957,46.631744,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Akhalchi,avar1256,#009999,#009999,2025-03-20
+41,Baitl,Баитль,42.546452,46.676472,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Baitl,avar1256,#009999,#009999,2025-03-20
+45,Barnab,Барнаб,42.07964,46.37894,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Barnab,avar1256,#009999,#009999,2025-03-20
+50,Bezhuda,Бежуда,42.200348,46.479175,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Bezhuda,avar1256,#009999,#009999,2025-03-20
+52,Betelda,Бетельда,41.95077,46.54164,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Betelda,avar1256,#009999,#009999,2025-03-20
+57,Bochokh,Бочох,42.22,46.28472,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Bochokh,avar1256,#009999,#009999,2025-03-20
+60,Busutli,Бусутли,42.245017,46.362562,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Busutli,avar1256,#009999,#009999,2025-03-20
+63,Verkhnee Inkho,Верхнее Инхо,42.70659,46.50415,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Verkhnee Inkho,avar1256,#009999,#009999,2025-03-20
+64,Verkhnee Khvarshini,Верхнее Хваршини,42.4079791,45.842582,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Verkhnee Khvarshini,avar1256,#009999,#009999,2025-03-20
+65,Verkhnie Akhalchi,Верхние Ахалчи,42.59911,46.63581,Avar,Avar-Andic,East Caucasian,NA,Avar,NA,NA,NA,NA,NA,NA,NA,NA,Verkhnie Akhalchi,avar1256,#009999,#009999,2025-03-20
+66,Verkhniy Aradirikh,Верхний Арадирих,42.8148532,46.5940654,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Verkhniy Aradirikh,avar1256,#009999,#009999,2025-03-20
+67,Verkhniy Batlukh,Верхний Батлух,42.496276,46.502217,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Baqluq,батлухский,Baqluq proper,собственно батлухский,NA,NA,Verkhniy Batlukh,avar1256,#009999,#009999,2025-03-20
+70,Verkhniy Kolob,Верхний Колоб,42.4265358,46.4888366,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Qahib,кахибский,NA,NA,NA,NA,Verkhniy Kolob,avar1256,#009999,#009999,2025-03-20
+71,Verkhniy Togokh,Верхний Тогох,42.4265358,46.4888366,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,North-Eastern Avar,северовосточноаварский,Teletli,телетлинский,Verkhniy Togokh,avar1256,#009999,#009999,2025-03-20
+75,Gagar,Гагар,41.999252,46.592744,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Gagar,avar1256,#009999,#009999,2025-03-20
+76,Gadari,Гадари,42.807303,46.621237,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Gadari,avar1256,#009999,#009999,2025-03-20
+78,Gakko,Гакко,42.47024,45.882,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Gakko,avar1256,#009999,#009999,2025-03-20
+80,Garakolob,Гараколоб,42.048887,46.455015,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Garakolob,avar1256,#009999,#009999,2025-03-20
+82,Gatsalukh,Гацалух,42.59298,46.64949,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Gatsalukh,avar1256,#009999,#009999,2025-03-20
+83,Gvedysh,Гведыш,42.13591,46.41437,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Gvedysh,avar1256,#009999,#009999,2025-03-20
+84,Gebguda,Гебгуда,42.190026,46.354817,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Gebguda,avar1256,#009999,#009999,2025-03-20
+85,Gendukh,Гендух,42.13476,46.403084,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Gendukh,avar1256,#009999,#009999,2025-03-20
+86,Genekolob,Генеколоб,41.916992,46.600199,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Genekolob,avar1256,#009999,#009999,2025-03-20
+89,Genta,Гента,42.3725836,46.5603422,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,Urada,урадинский,NA,NA,Genta,avar1256,#009999,#009999,2025-03-20
+93,Gerel,Герель,41.94451,46.551888,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Gerel,avar1256,#009999,#009999,2025-03-20
+95,Gidatli,Гидатли,42.266327,46.374506,Avar,Avar-Andic,East Caucasian,NA,Avar,Southern Avar,Южноаварский,Antsukh,анцухский,Antsrosunkhada,Анцросунхадинский,Kosob,NA,Gidatli,avar1256,#009999,#009999,2025-03-20
+96,Gidatlinskiy Most,Гидатлинский Мост,42.395122,46.514566,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,NA,NA,NA,NA,Gidatlinskiy Most,avar1256,#009999,#009999,2025-03-20
+100,Gindib,Гиндиб,42.11296,46.50397,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Gindib,avar1256,#009999,#009999,2025-03-20
+103,Gozolokolo,Гозолоколо,42.569651,46.61206,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Gozolokolo,avar1256,#009999,#009999,2025-03-20
+106,Gondokori,Гондокори,42.5895667,46.6755481,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Gondokori,avar1256,#009999,#009999,2025-03-20
+108,Gonokh,Гонох,42.56163,46.6896,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Gonokh,avar1256,#009999,#009999,2025-03-20
+110,Goor,Гоор,42.43339,46.56927,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Qahib,кахибский,NA,NA,NA,NA,Goor,avar1256,#009999,#009999,2025-03-20
+111,Goor-Khindakh,Гоор-Хиндах,42.451732,46.564373,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Qahib,кахибский,NA,NA,NA,NA,Goor-Khindakh,avar1256,#009999,#009999,2025-03-20
+112,Gortkolo,Гортколо,42.576655,46.63945,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Gortkolo,avar1256,#009999,#009999,2025-03-20
+113,Gortnob,Гортноб,41.962665,46.525604,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Gortnob,avar1256,#009999,#009999,2025-03-20
+126,Dagbash,Дагбаш,42.380347,46.351961,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Daghbash,дагбашский,NA,NA,NA,NA,Dagbash,avar1256,#009999,#009999,2025-03-20
+129,Danukh,Данух,42.84282,46.6275,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Danukh,avar1256,#009999,#009999,2025-03-20
+132,Datuna,Датуна,42.47357,46.64364,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Datuna,avar1256,#009999,#009999,2025-03-20
+133,Dzhalaturi,Джалатури,42.631847,46.567028,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Dzhalaturi,avar1256,#009999,#009999,2025-03-20
+139,Zhazhada,Жажада,42.197157,46.424903,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Zhazhada,avar1256,#009999,#009999,2025-03-20
+142,Zanata,Заната,42.485146,46.552771,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Baqluq,батлухский,Baqluq proper,собственно батлухский,NA,NA,Zanata,avar1256,#009999,#009999,2025-03-20
+148,Igali,Игали,42.7181,46.5811,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Igali,avar1256,#009999,#009999,2025-03-20
+149,Izta,Изта,42.30889,46.35667,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Izta,avar1256,#009999,#009999,2025-03-20
+151,Ingerdakh,Ингердах,42.58926,46.398373,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Ingerdakh,avar1256,#009999,#009999,2025-03-20
+152,Ingishi,Ингиши,42.77477,46.54264,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Ingishi,avar1256,#009999,#009999,2025-03-20
+159,Ichichali,Ичичали,42.732617,46.405263,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Ichichali,avar1256,#009999,#009999,2025-03-20
+161,Kabasida,Кабасида,42.205771,46.341334,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Kabasida,avar1256,#009999,#009999,2025-03-20
+166,Kamilukh,Камилух,41.90911,46.63101,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Kamilukh,avar1256,#009999,#009999,2025-03-20
+168,Karadla,Карадла,42.21059,46.29844,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Karadla,avar1256,#009999,#009999,2025-03-20
+170,Kardib,Кардиб,42.111443,46.514655,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Kardib,avar1256,#009999,#009999,2025-03-20
+172,Katroso,Катросо,42.1898443,46.3278968,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Katroso,avar1256,#009999,#009999,2025-03-20
+175,Kakhib,Кахиб,42.4272,46.5969,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Qahib,кахибский,NA,NA,NA,NA,Kakhib,avar1256,#009999,#009999,2025-03-20
+177,Kvami,Квами,42.5895667,46.6755481,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Kvami,avar1256,#009999,#009999,2025-03-20
+178,Kversatl,Кверсатль,42.302562,46.392793,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Kversatl,avar1256,#009999,#009999,2025-03-20
+181,Kedi,Кеди,42.52611,45.96639,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Kedi,avar1256,#009999,#009999,2025-03-20
+182,Kienikh,Киених,42.43056,46.66639,Avar,Avar-Andic,East Caucasian,NA,Avar,NA,NA,NA,NA,NA,NA,NA,NA,Kienikh,avar1256,#009999,#009999,2025-03-20
+183,Kizhani,Кижани,42.74031,46.364775,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Kizhani,avar1256,#009999,#009999,2025-03-20
+185,Kilyatl,Килятль,42.704637,46.466046,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Kilyatl,avar1256,#009999,#009999,2025-03-20
+186,Kishdatl,Кишдатль,42.304638,46.342239,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Kishdatl,avar1256,#009999,#009999,2025-03-20
+187,Kolo,Коло,42.65769,46.56607,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Kolo,avar1256,#009999,#009999,2025-03-20
+188,Kolob,Колоб,42.0709604,46.4817811,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Kolob,avar1256,#009999,#009999,2025-03-20
+191,Kosob,Кособ,42.242893,46.368239,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Kosob,avar1256,#009999,#009999,2025-03-20
+194,Kuanib,Куаниб,42.509735,46.611385,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Kuanib,avar1256,#009999,#009999,2025-03-20
+201,Kunzakh,Кунзах,42.74884,46.66488,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Kunzakh,avar1256,#009999,#009999,2025-03-20
+206,Kutlab,Кутлаб,42.09663,46.32982,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Kutlab,avar1256,#009999,#009999,2025-03-20
+208,Landa,Ланда,42.218,46.27432,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Landa,avar1256,#009999,#009999,2025-03-20
+214,Magitl,Магитль,42.248081,46.366738,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Magitl,avar1256,#009999,#009999,2025-03-20
+215,Mazada,Мазада,42.2328275,46.3831819,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Mazada,avar1256,#009999,#009999,2025-03-20
+221,Matlas,Матлас,42.595249,46.605532,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Matlas,avar1256,#009999,#009999,2025-03-20
+223,Machada,Мачада,42.37777,46.535,Avar,Avar-Andic,East Caucasian,NA,Avar,Kuyada-Salta,Куяда-салтинское,Kuyada,куядинский,NA,NA,NA,NA,Machada,avar1256,#009999,#009999,2025-03-20
+224,Machar,Мачар,42.206556,46.335204,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Machar,avar1256,#009999,#009999,2025-03-20
+225,Mesterukh,Местерух,42.5747,46.3964,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Mesterukh,avar1256,#009999,#009999,2025-03-20
+226,Metrada,Метрада,42.393034,45.888954,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Metrada,avar1256,#009999,#009999,2025-03-20
+227,Mekhelta,Мехельта,42.798277,46.497361,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Mekhelta,avar1256,#009999,#009999,2025-03-20
+230,Mikdatl,Микдатль,42.309412,46.380732,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Mikdatl,avar1256,#009999,#009999,2025-03-20
+231,Mitliurib,Митлиуриб,42.43537,46.68836,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,North-Eastern Avar,северовосточноаварский,Teletli,телетлинский,Mitliurib,avar1256,#009999,#009999,2025-03-20
+232,Mogokh,Могох,42.49944,46.57472,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Baqluq,батлухский,Baqluq proper,собственно батлухский,NA,NA,Mogokh,avar1256,#009999,#009999,2025-03-20
+234,Mokoda,Мокода,42.42385,46.66963,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Qahib,кахибский,NA,NA,NA,NA,Mokoda,avar1256,#009999,#009999,2025-03-20
+238,Mochokh,Мочох,42.63159,46.61242,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Mochokh,avar1256,#009999,#009999,2025-03-20
+245,Musrukh,Мусрух,42.32897,46.51614,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Qeleb,келебский,NA,NA,NA,NA,Musrukh,avar1256,#009999,#009999,2025-03-20
+246,Mushuli,Мушули,42.633706,46.498593,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Mushuli,avar1256,#009999,#009999,2025-03-20
+247,Nadar,Надар,42.09736,46.36025,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Nadar,avar1256,#009999,#009999,2025-03-20
+249,Nakitl,Накитль,42.398,46.608663,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,Urada,урадинский,NA,NA,Nakitl,avar1256,#009999,#009999,2025-03-20
+250,Nanibika,Нанибика,42.8148532,46.5940654,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Nanibika,avar1256,#009999,#009999,2025-03-20
+252,Nachada,Начада,42.198508,46.448902,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Nachada,avar1256,#009999,#009999,2025-03-20
+253,Nizhnee Inkho,Нижнее Инхо,42.704518,46.507752,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Nizhnee Inkho,avar1256,#009999,#009999,2025-03-20
+254,Nizhnee Khvarshini,Нижнее Хваршини,42.4079791,45.842582,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Nizhnee Khvarshini,avar1256,#009999,#009999,2025-03-20
+257,Nizhniy Aradirikh,Нижний Арадирих,42.68979,46.568219,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Nizhniy Aradirikh,avar1256,#009999,#009999,2025-03-20
+258,Nizhniy Batlukh,Нижний Батлух,42.4853,46.5239,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Baqluq,батлухский,Baqluq proper,собственно батлухский,NA,NA,Nizhniy Batlukh,avar1256,#009999,#009999,2025-03-20
+261,Nizhniy Kolob,Нижний Колоб,42.430087,46.659303,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Qahib,кахибский,NA,NA,NA,NA,Nizhniy Kolob,avar1256,#009999,#009999,2025-03-20
+263,Nikar,Никар,42.0737,46.406903,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Nikar,avar1256,#009999,#009999,2025-03-20
+264,Niklida,Никлида,42.2328275,46.3831819,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Niklida,avar1256,#009999,#009999,2025-03-20
+265,Nitab,Нитаб,42.51925,46.63256,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Nitab,avar1256,#009999,#009999,2025-03-20
+266,Nitilsukh,Нитилсух,42.04732,46.42938,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Nitilsukh,avar1256,#009999,#009999,2025-03-20
+267,Novoe Argvani,Новое Аргвани,42.78174,46.60445,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Novoe Argvani,avar1256,#009999,#009999,2025-03-20
+269,Novoe Kheleturi (Kadari),Новое Хелетури (Кадари),42.611632,46.2269978,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Novoe Kheleturi (Kadari),avar1256,#009999,#009999,2025-03-20
+274,Noyrukh,Нойрух,42.193895,46.38005,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Noyrukh,avar1256,#009999,#009999,2025-03-20
+278,Nukhotkolob,Нухотколоб,42.23195,46.265721,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Nukhotkolob,avar1256,#009999,#009999,2025-03-20
+279,Oboda,Обода,42.578542,46.668203,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Oboda,avar1256,#009999,#009999,2025-03-20
+285,Orota,Орота,42.65915,46.53772,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Orota,avar1256,#009999,#009999,2025-03-20
+286,Ortakolo,Ортаколо,42.67057,46.38882,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Ortakolo,avar1256,#009999,#009999,2025-03-20
+288,Ochlo,Очло,42.642518,46.64532,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Ochlo,avar1256,#009999,#009999,2025-03-20
+291,Ravkvatl,Равкватль,42.372636,46.57905,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,NA,NA,NA,NA,Ravkvatl,avar1256,#009999,#009999,2025-03-20
+292,Rakhata,Рахата,42.6911,46.1414,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Rakhata,avar1256,#009999,#009999,2025-03-20
+294,Rosnob,Росноб,42.2522543,46.3708053,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Rosnob,avar1256,#009999,#009999,2025-03-20
+295,Rosta,Роста,42.20056,46.39667,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Rosta,avar1256,#009999,#009999,2025-03-20
+298,Rugelda,Ругельда,42.3175,46.5244,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Qeleb,келебский,NA,NA,NA,NA,Rugelda,avar1256,#009999,#009999,2025-03-20
+301,Sabda,Сабда,42.311355,46.371346,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Sabda,avar1256,#009999,#009999,2025-03-20
+302,Salda,Салда,41.97497,46.50848,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Salda,avar1256,#009999,#009999,2025-03-20
+305,Saniorta,Саниорта,42.03195,46.44246,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Saniorta,avar1256,#009999,#009999,2025-03-20
+306,Santa,Санта,42.242163,46.254323,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Santa,avar1256,#009999,#009999,2025-03-20
+307,Saraf,Сараф,42.204449,46.316987,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Saraf,avar1256,#009999,#009999,2025-03-20
+308,Sasitli,Саситли,42.496173,45.996762,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Sasitli,avar1256,#009999,#009999,2025-03-20
+312,Sikar,Сикар,42.07966,46.41127,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Sikar,avar1256,#009999,#009999,2025-03-20
+314,Sildi,Сильди,42.4552,45.92715,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Sildi,avar1256,#009999,#009999,2025-03-20
+315,Sinida,Синида,42.20341,46.39071,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Sinida,avar1256,#009999,#009999,2025-03-20
+316,Siukh,Сиух,42.5999,46.54462,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Siukh,avar1256,#009999,#009999,2025-03-20
+319,Somoda,Сомода,42.30272,46.5368,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Qeleb,келебский,NA,NA,NA,NA,Somoda,avar1256,#009999,#009999,2025-03-20
+320,Sredniy Aradirikh,Средний Арадирих,42.68121,46.58022,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Sredniy Aradirikh,avar1256,#009999,#009999,2025-03-20
+322,Staryy Sivukh,Старый Сивух,42.80278,46.43694,Avar,Avar-Andic,East Caucasian,NA,Avar,NA,NA,NA,NA,NA,NA,NA,NA,Staryy Sivukh,avar1256,#009999,#009999,2025-03-20
+326,Tadiyal,Тадиял,42.11099,46.4823,Avar,Avar-Andic,East Caucasian,NA,Avar,Southern Avar,Южноаварский,Antsukh,анцухский,Bukhnada,Бухнадинский,NA,NA,Tadiyal,avar1256,#009999,#009999,2025-03-20
+327,Talsukh,Талсух,42.04741,46.40589,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Talsukh,avar1256,#009999,#009999,2025-03-20
+329,Tamuda,Тамуда,42.21001,46.382,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Tamuda,avar1256,#009999,#009999,2025-03-20
+330,Tando,Тандо,42.707696,46.175693,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Tando,avar1256,#009999,#009999,2025-03-20
+331,Tantari,Тантари,42.76371,46.64888,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Tantari,avar1256,#009999,#009999,2025-03-20
+332,Tanusi,Тануси,42.58233,46.69233,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Tanusi,avar1256,#009999,#009999,2025-03-20
+334,Tasuta,Тасута,42.71731,46.22568,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Tasuta,avar1256,#009999,#009999,2025-03-20
+335,Tekita,Текита,42.630886,46.521832,Avar,Avar-Andic,East Caucasian,NA,Avar,NA,NA,NA,NA,NA,NA,NA,NA,Tekita,avar1256,#009999,#009999,2025-03-20
+338,Tidib,Тидиб,42.3889,46.5742,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,Urada,урадинский,NA,NA,Tidib,avar1256,#009999,#009999,2025-03-20
+339,Tilanib,Тиланиб,42.306633,46.350255,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Tilanib,avar1256,#009999,#009999,2025-03-20
+340,Tilutl,Тилутль,42.109733,46.349325,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Tilutl,avar1256,#009999,#009999,2025-03-20
+341,Tinchuda,Тинчуда,42.19861,46.45306,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Tinchuda,avar1256,#009999,#009999,2025-03-20
+342,Tlaylukh,Тлайлух,42.6212754,46.5237166,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Tlaylukh,avar1256,#009999,#009999,2025-03-20
+343,Tlezda,Тлезда,42.4265358,46.4888366,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,North-Eastern Avar,северовосточноаварский,Teletli,телетлинский,Tlezda,avar1256,#009999,#009999,2025-03-20
+344,Tlobzoda,Тлобзода,42.17944,46.37111,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Tlobzoda,avar1256,#009999,#009999,2025-03-20
+346,Tlokh,Тлох,42.6492,46.4578,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Tlokh,avar1256,#009999,#009999,2025-03-20
+347,Tlyanada,Тлянада,42.02864,46.51038,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Tlyanada,avar1256,#009999,#009999,2025-03-20
+348,Tlyarata,Тлярата,42.106187,46.354908,Avar,Avar-Andic,East Caucasian,NA,Avar,NA,NA,NA,NA,NA,NA,NA,NA,Tlyarata,avar1256,#009999,#009999,2025-03-20
+351,Tlyakh,Тлях,42.389928,46.540021,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,Tlaq,тляхский,NA,NA,Tlyakh,avar1256,#009999,#009999,2025-03-20
+352,Tokh,Тох,42.222292,46.291546,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Tokh,avar1256,#009999,#009999,2025-03-20
+353,Tokh-Orda,Тох-Орда,42.11174,46.35982,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Tokh-Orda,avar1256,#009999,#009999,2025-03-20
+354,Tokhota,Тохота,42.0178,46.4639,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Tokhota,avar1256,#009999,#009999,2025-03-20
+355,Tumagari,Тумагари,42.58165,46.60662,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Tumagari,avar1256,#009999,#009999,2025-03-20
+359,Ukal,Укал,42.12163,46.34771,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Ukal,avar1256,#009999,#009999,2025-03-20
+360,Ulgeb,Ульгеб,41.964253,46.523688,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Ulgeb,avar1256,#009999,#009999,2025-03-20
+365,Urada,Урада,42.3822,46.5617,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,Urada,урадинский,NA,NA,Urada,avar1256,#009999,#009999,2025-03-20
+366,Uradakolob,Урадаколоб,42.389247,46.538713,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,NA,NA,NA,NA,Uradakolob,avar1256,#009999,#009999,2025-03-20
+368,Urib,Уриб,42.4564,46.6736,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,North-Eastern Avar,северовосточноаварский,Teletli,телетлинский,Urib,avar1256,#009999,#009999,2025-03-20
+372,Urchukh,Урчух,42.325548,46.495518,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Qeleb,келебский,NA,NA,NA,NA,Urchukh,avar1256,#009999,#009999,2025-03-20
+374,Khadakolob,Хадаколоб,42.231683,46.261819,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Khadakolob,avar1256,#009999,#009999,2025-03-20
+375,Khadiyal,Хадиял,42.0989,46.4653,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Khadiyal,avar1256,#009999,#009999,2025-03-20
+378,Khamakal,Хамакал,42.428109,46.674497,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Qahib,кахибский,NA,NA,NA,NA,Khamakal,avar1256,#009999,#009999,2025-03-20
+379,Khamar,Хамар,42.095868,46.383695,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsros-Unhada,анцрос-унхадинский,NA,NA,Khamar,avar1256,#009999,#009999,2025-03-20
+380,Khantakolob,Хантаколоб,42.21944,46.29083,Avar,Avar-Andic,East Caucasian,NA,Avar,NA,NA,NA,NA,NA,NA,NA,NA,Khantakolob,avar1256,#009999,#009999,2025-03-20
+381,Kharada,Харада,42.222648,46.258528,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Kharada,avar1256,#009999,#009999,2025-03-20
+382,Kharakhi,Харахи,42.6433,46.5211,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Kharakhi,avar1256,#009999,#009999,2025-03-20
+384,Kharib,Хариб,42.5911497,46.3972842,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Kharib,avar1256,#009999,#009999,2025-03-20
+392,Khebda,Хебда,42.437671,46.5473635,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,mixed,смешанный,NA,NA,NA,NA,Khebda,avar1256,#009999,#009999,2025-03-20
+394,Kheleturi,Хелетури,42.612495,46.225440999999996,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Kheleturi,avar1256,#009999,#009999,2025-03-20
+396,Khidib,Хидиб,42.17812,46.36299,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Khidib,avar1256,#009999,#009999,2025-03-20
+397,Khimakoro,Химакоро,42.590092,46.617523,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Khimakoro,avar1256,#009999,#009999,2025-03-20
+398,Khindakh,Хиндах,42.29807,46.39071,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Khindakh,avar1256,#009999,#009999,2025-03-20
+400,Khintida,Хинтида,42.220547,46.275395,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Khintida,avar1256,#009999,#009999,2025-03-20
+403,Khobokh,Хобох,42.204624,46.379234,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Khobokh,avar1256,#009999,#009999,2025-03-20
+404,Khonokh,Хонох,42.317215,46.51048,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Qeleb,келебский,NA,NA,NA,NA,Khonokh,avar1256,#009999,#009999,2025-03-20
+406,Khoroda,Хорода,42.25629,46.42114,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Khoroda,avar1256,#009999,#009999,2025-03-20
+407,Khorta,Хорта,42.19329,46.35976,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Khorta,avar1256,#009999,#009999,2025-03-20
+408,Khotlob,Хотлоб,42.201243,46.432755,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Khotlob,avar1256,#009999,#009999,2025-03-20
+409,Khotoda,Хотода,42.39393,46.559446,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,NA,NA,NA,NA,Khotoda,avar1256,#009999,#009999,2025-03-20
+414,Khuchada,Хучада,42.400235,46.469178,Avar,Avar-Andic,East Caucasian,NA,Avar,Hid-Qeleb,Гидское,Hid,собственно гидский,NA,NA,NA,NA,Khuchada,avar1256,#009999,#009999,2025-03-20
+418,Tsalkita,Цалкита,42.61798,46.57339,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Tsalkita,avar1256,#009999,#009999,2025-03-20
+420,Tsanatl,Цанатль,42.72244,46.62252,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Tsanatl,avar1256,#009999,#009999,2025-03-20
+422,Tselmes,Цельмес,42.623464,46.538549,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Tselmes,avar1256,#009999,#009999,2025-03-20
+426,Tsilitl,Цилитль,42.8125,46.4156,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Tsilitl,avar1256,#009999,#009999,2025-03-20
+427,Tsimguda,Цимгуда,42.01269,46.5665,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Tsimguda,avar1256,#009999,#009999,2025-03-20
+428,Tsikhalakh,Цихалах,42.408702,45.824852,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Tsikhalakh,avar1256,#009999,#009999,2025-03-20
+430,Tsiyab-Tsilitli,Цияб-Цилитли,42.8105097,46.4181434,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Tsiyab-Tsilitli,avar1256,#009999,#009999,2025-03-20
+432,Tsoloda,Цолода,42.63827,46.36626,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Tsoloda,avar1256,#009999,#009999,2025-03-20
+434,Tsumilukh,Цумилух,42.05974,46.41242,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Buhnada,бухнадинский,NA,NA,Tsumilukh,avar1256,#009999,#009999,2025-03-20
+435,Tsundi,Цунди,42.740996,46.436577,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Tsundi,avar1256,#009999,#009999,2025-03-20
+437,Chadakolob,Чадаколоб,42.19182,46.31981,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Chadakolob,avar1256,#009999,#009999,2025-03-20
+441,Charakh,Чарах,42.30607,46.35715,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Charakh,avar1256,#009999,#009999,2025-03-20
+445,Childa,Чилда,42.16328,46.34734,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Tash,ташский,NA,NA,Childa,avar1256,#009999,#009999,2025-03-20
+449,Chitl,Читль,42.722594,46.504009,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Chitl,avar1256,#009999,#009999,2025-03-20
+450,Chododa,Чодода,42.193439,46.314784,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Northern Antlratl,северноанкратльский,Antsuq,анцухский,NA,NA,Chododa,avar1256,#009999,#009999,2025-03-20
+452,Chondotl,Чондотль,42.547749,46.659112,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Chondotl,avar1256,#009999,#009999,2025-03-20
+454,Choroda,Чорода,41.98096,46.49696,Avar,Avar-Andic,East Caucasian,NA,Avar,Antlratl,Анкратльское,Southern Antlratl,южноанкратльский,Tomur,томурский,NA,NA,Choroda,avar1256,#009999,#009999,2025-03-20
+459,Shabdukh,Шабдух,42.75612,46.42139,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Salataw,салатавский,NA,NA,Shabdukh,avar1256,#009999,#009999,2025-03-20
+463,Shidib,Шидиб,42.214353,46.300745,Avar,Avar-Andic,East Caucasian,NA,Avar,Southern Avar,Южноаварский,Antsukh,анцухский,Tash,Ташский,NA,NA,Shidib,avar1256,#009999,#009999,2025-03-20
+465,Shodroda,Шодрода,42.678426,46.12155,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Unqratl,ункратльский,NA,NA,Shodroda,avar1256,#009999,#009999,2025-03-20
+466,Shotoda,Шотода,42.5824853,46.5788492,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Shotoda,avar1256,#009999,#009999,2025-03-20
+467,Shotota,Шотота,42.58165,46.57729,Avar,Avar-Andic,East Caucasian,NA,Avar,NA,NA,NA,NA,NA,NA,NA,NA,Shotota,avar1256,#009999,#009999,2025-03-20
+471,Ebuta,Эбута,42.59275,46.66626,Avar,Avar-Andic,East Caucasian,NA,Avar,Baqluq-Northern Avar,Батлухско-северное,Northern Avar,северноаварский,Khunzaq,хунзахский,NA,NA,Ebuta,avar1256,#009999,#009999,2025-03-20
+474,Standard Avar,NA,42.43056,46.66639,Avar,Avar-Andic,East Caucasian,Standard Avar,Avar,NA,NA,NA,NA,NA,NA,NA,NA,NA,avar1256,#009999,#009999,2025-03-20
+475,Gimerso,Гимерсо,42.561489,46.227545,Bagvalal,Avar-Andic,East Caucasian,NA,Bagvalal,Western Bagvalal,Западнобагвалинский,Kvanada-Gimerso,Квандинско-гимерсинский,NA,NA,NA,NA,Gimerso,bagv1239,#000066,#9900ff,2025-03-20
+476,Kvanada,Кванада,42.561478,46.17397,Bagvalal,Avar-Andic,East Caucasian,NA,Bagvalal,Western Bagvalal,Западнобагвалинский,Kvanada-Gimerso,Квандинско-гимерсинский,NA,NA,NA,NA,Kvanada,bagv1239,#000066,#9900ff,2025-03-20
+477,Tlenkhori,Тленхори,42.4681009,46.0549675,Bagvalal,Avar-Andic,East Caucasian,NA,Bagvalal,Western Bagvalal,Западнобагвалинский,NA,NA,NA,NA,NA,NA,Tlenkhori,bagv1239,#000066,#9900ff,2025-03-20
+478,Tlibisho,Тлибишо,42.56054,46.30101,Bagvalal,Avar-Andic,East Caucasian,NA,Bagvalal,Eastern Bagvalal,Восточнобагвалинский,Tlisi-Tlibisho,Тлисси-тлибишинский,NA,NA,NA,NA,Tlibisho,bagv1239,#000066,#9900ff,2025-03-20
+479,Tlisi,Тлиси,42.56209,46.27428,Bagvalal,Avar-Andic,East Caucasian,NA,Bagvalal,Eastern Bagvalal,Восточнобагвалинский,Tlisi-Tlibisho,Тлисси-тлибишинский,NA,NA,NA,NA,Tlisi,bagv1239,#000066,#9900ff,2025-03-20
+480,Tlondoda,Тлондода,42.5247,46.1989,Bagvalal,Avar-Andic,East Caucasian,NA,Bagvalal,Western Bagvalal,Западнобагвалинский,Tlondoda-Khushtada,Тлондинско-хуштадинский,NA,NA,NA,NA,Tlondoda,bagv1239,#000066,#9900ff,2025-03-20
+481,Khushtada,Хуштада,42.517389,46.166126,Bagvalal,Avar-Andic,East Caucasian,NA,Bagvalal,Western Bagvalal,Западнобагвалинский,Tlondoda-Khushtada,Тлондинско-хуштадинский,NA,NA,NA,NA,Khushtada,bagv1239,#000066,#9900ff,2025-03-20
+482,Ankho,Анхо,42.723184,46.239448,Botlikh,Avar-Andic,East Caucasian,NA,Botlikh,Botlikh,Ботлихский,NA,NA,NA,NA,NA,NA,Ankho,botl1242,#336699,#9900ff,2025-03-20
+483,Ashino,Ашино,42.683462,46.156727,Botlikh,Avar-Andic,East Caucasian,NA,Botlikh,Botlikh,Ботлихский,NA,NA,NA,NA,NA,NA,Ashino,botl1242,#336699,#9900ff,2025-03-20
+484,Botlikh,Ботлих,42.667813,46.221451,Botlikh,Avar-Andic,East Caucasian,NA,Botlikh,Botlikh,Ботлихский,NA,NA,NA,NA,NA,NA,Botlikh,botl1242,#336699,#9900ff,2025-03-20
+485,Miarso,Миарсо,42.654059,46.175643,Botlikh,Avar-Andic,East Caucasian,NA,Botlikh,Miarso,Миарсинский,NA,NA,NA,NA,NA,NA,Miarso,botl1242,#336699,#9900ff,2025-03-20
+486,Agvali,Агвали,42.541192,46.121798,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,NA,NA,NA,NA,NA,NA,NA,NA,Agvali,cham1309,#000099,#9900ff,2025-03-20
+487,Batlakhatli,Батлахатли,42.580364,46.058877,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,NA,NA,NA,NA,NA,NA,NA,NA,Batlakhatli,cham1309,#000099,#9900ff,2025-03-20
+488,Verkhnee Gakvari,Верхнее Гаквари,42.547874,46.032686,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Upper Gakvari,Верхнегакваринский,NA,NA,NA,NA,NA,NA,Verkhnee Gakvari,cham1309,#000099,#9900ff,2025-03-20
+489,Gadiri,Гадири,42.566265,46.065746,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Gadyri,Гадыринский,NA,NA,NA,NA,NA,NA,Gadiri,cham1309,#000099,#9900ff,2025-03-20
+490,Gachitli,Гачитли,42.551361,46.088803,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Gadyri,Гадыринский,NA,NA,NA,NA,NA,NA,Gachitli,cham1309,#000099,#9900ff,2025-03-20
+491,Gigikh,Гигих,42.532529,46.101767,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Gadyri,Гадыринский,NA,NA,NA,NA,NA,NA,Gigikh,cham1309,#000099,#9900ff,2025-03-20
+493,Kochali,Кочали,42.527888,46.116112,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Gadyri,Гадыринский,NA,NA,NA,NA,NA,NA,Kochali,cham1309,#000099,#9900ff,2025-03-20
+494,Nizhnee Gakvari,Нижнее Гаквари,42.53602,46.05171,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Lower Gakvari,Нижнегакваринский,NA,NA,NA,NA,NA,NA,Nizhnee Gakvari,cham1309,#000099,#9900ff,2025-03-20
+495,Richaganikh,Ричаганих,42.49724,46.05853,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Tsumadi,Гакваринский,NA,NA,NA,NA,NA,NA,Richaganikh,cham1309,#000099,#9900ff,2025-03-20
+496,Tsidatl',Цидатль,42.51855,46.05795,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Lower Gakvari,Нижнегакваринский,NA,NA,NA,NA,NA,NA,Tsidatl',cham1309,#000099,#9900ff,2025-03-20
+497,Tsuydi,Цуйди,42.52334,46.07182,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Lower Gakvari,Нижнегакваринский,NA,NA,NA,NA,NA,NA,Tsuydi,cham1309,#000099,#9900ff,2025-03-20
+498,Tsumada,Цумада,42.48187,46.05247,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Tsumadi,Гакваринский,NA,NA,NA,NA,NA,NA,Tsumada,cham1309,#000099,#9900ff,2025-03-20
+499,Tsumada-Urukh,Цумада-Урух,42.474208,46.063467,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Tsumadi,Цумадинский,NA,NA,NA,NA,NA,NA,Tsumada-Urukh,cham1309,#000099,#9900ff,2025-03-20
+500,Egdada,Эгдада,42.4681009,46.0549675,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,Lower Gakvari,Нижнегакваринский,NA,NA,NA,NA,NA,NA,Egdada,cham1309,#000099,#9900ff,2025-03-20
+501,Gigatli-Urukh,Гигатли-Урух,42.590934,46.142589,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,NA,NA,NA,NA,NA,NA,NA,NA,Gigatli-Urukh,cham1309,#000099,#9900ff,2025-03-20
+502,Gigatl',Гигатль,42.58136,46.0964,Chamalal,Avar-Andic,East Caucasian,NA,Chamalal,NA,NA,NA,NA,NA,NA,NA,NA,Gigatl',cham1309,#000099,#9900ff,2025-03-20
+503,Beledi,Беледи,42.66722,46.05361,Godoberi,Avar-Andic,East Caucasian,NA,Godoberi,Beledi-Zibirkhali,Беледи-зибирхалинский,NA,NA,NA,NA,NA,NA,Beledi,ghod1238,#003399,#9900ff,2025-03-20
+504,Godoberi,Годобери,42.6258,46.1189,Godoberi,Avar-Andic,East Caucasian,NA,Godoberi,Godoberi,NA,NA,NA,NA,NA,NA,NA,Godoberi,ghod1238,#003399,#9900ff,2025-03-20
+505,Zibirkhali,Зибирхали,42.66833,46.07194,Godoberi,Avar-Andic,East Caucasian,NA,Godoberi,Beledi-Zibirkhali,Беледи-зибирхалинский,NA,NA,NA,NA,NA,NA,Zibirkhali,ghod1238,#003399,#9900ff,2025-03-20
+506,Anchik,Анчик,42.608098,46.271717,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Anchiq,Анчихский,NA,NA,NA,NA,NA,NA,Anchik,kara1474,#666699,#9900ff,2025-03-20
+507,Archo,Арчо,42.597691,46.305756,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Karata,Каратинский,NA,NA,NA,NA,NA,NA,Archo,kara1474,#666699,#9900ff,2025-03-20
+508,Verkhnee Inkhelo,Верхнее Инхело,42.62035,46.329732,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Karata,Каратинский,NA,NA,NA,NA,NA,NA,Verkhnee Inkhelo,kara1474,#666699,#9900ff,2025-03-20
+509,Karata,Карата,42.5942,46.3419,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Karata,Каратинский,NA,NA,NA,NA,NA,NA,Karata,kara1474,#666699,#9900ff,2025-03-20
+510,Mashtada,Маштада,42.61362,46.314659,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Karata,Каратинский,Mashtada-Rachabulda,Маштада-рачабулдинский,NA,NA,NA,NA,Mashtada,kara1474,#666699,#9900ff,2025-03-20
+511,Nizhnee Inkhelo,Нижнее Инхело,42.645134,46.259367,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Karata,Каратинский,NA,NA,NA,NA,NA,NA,Nizhnee Inkhelo,kara1474,#666699,#9900ff,2025-03-20
+512,Ratsitl,Рацитль,42.63788,46.33455,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Karata,Каратинский,NA,NA,NA,NA,NA,NA,Ratsitl,kara1474,#666699,#9900ff,2025-03-20
+513,Rachabulda,Рачабулда,42.617256,46.300014,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Karata,Каратинский,Mashtada-Rachabulda,Маштада-рачабулдинский,NA,NA,NA,NA,Rachabulda,kara1474,#666699,#9900ff,2025-03-20
+515,Tsumali,Цумали,42.607619,46.260923,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,Anchiq,Анчихский,NA,NA,NA,NA,NA,NA,Tsumali,kara1474,#666699,#9900ff,2025-03-20
+516,Kvankhidatli,Кванхидатли,42.65789,46.271742,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Kvankhidatli,lowe1465,#003366,#9900ff,2025-03-20
+517,Muni,Муни,42.680242,46.308874,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Muni,lowe1465,#003366,#9900ff,2025-03-20
+519,Izano,Изано,42.52735,46.40389,Northern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Izano,akhv1239,#9900ff,#9900ff,2025-03-20
+520,Kvankero,Кванкеро,42.55244,46.3404,Northern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Kvankero,akhv1239,#9900ff,#9900ff,2025-03-20
+521,Kudiyabroso,Кудиябросо,42.541069,46.377932,Northern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Kudiyabroso,akhv1239,#9900ff,#9900ff,2025-03-20
+522,Lologonitl',Лологонитль,42.51398,46.33093,Northern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Lologonitl',akhv1239,#9900ff,#9900ff,2025-03-20
+523,Tad-Magitl',Тад-магитль,42.550266,46.348953,Northern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Tad-Magitl',akhv1239,#9900ff,#9900ff,2025-03-20
+524,Tsvakilkolo,Цвакилколо,42.55213,46.35351,Northern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Tsvakilkolo,akhv1239,#9900ff,#9900ff,2025-03-20
+525,Ratlub,Ратлуб,42.359268,46.433433,Southern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Ratlub,sout3319,#9900ff,#9900ff,2025-03-20
+526,Tlyanub,Тлянуб,42.43568,46.45745,Southern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Tlyanub,sout3319,#9900ff,#9900ff,2025-03-20
+527,Tsekob,Цекоб,42.422785,46.450219,Southern Akhvakh,Avar-Andic,East Caucasian,NA,Akhvakh,NA,NA,NA,NA,NA,NA,NA,NA,Tsekob,sout3319,#9900ff,#9900ff,2025-03-20
+528,Aknada,Акнада,42.4024828,46.1693204,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Aknada-Angida,Акнада-ангидинский,NA,NA,NA,NA,NA,NA,Aknada,tind1238,#333399,#9900ff,2025-03-20
+529,Angida,Ангида,42.43279,46.1924,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Aknada-Angida,Акнада-ангидинский,NA,NA,NA,NA,NA,NA,Angida,tind1238,#333399,#9900ff,2025-03-20
+530,Asha,Аша,42.450373,46.3334458,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Asha,tind1238,#333399,#9900ff,2025-03-20
+531,Bekhvalutchi,Бехвалутчи,42.464704,46.139754,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Bekhvalutchi,tind1238,#333399,#9900ff,2025-03-20
+532,Gadaychi,Гадайчи,42.470059,46.070951,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Gadaychi,tind1238,#333399,#9900ff,2025-03-20
+533,Gvanachi,Гваначи,42.4606005,46.1622609,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Gvanachi,tind1238,#333399,#9900ff,2025-03-20
+534,Gunduchi,Гундучи,42.424818,46.15836,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Gunduchi,tind1238,#333399,#9900ff,2025-03-20
+535,Mukharkh,Мухарх,42.459302,46.15171,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Mukharkh,tind1238,#333399,#9900ff,2025-03-20
+536,Sanukh,Санух,42.47054,46.13446,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Sanukh,tind1238,#333399,#9900ff,2025-03-20
+537,Tenla,Тенла,42.465771,46.128629,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Tenla,tind1238,#333399,#9900ff,2025-03-20
+538,Tindi,Тинди,42.454716,46.13469,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Tindi,tind1238,#333399,#9900ff,2025-03-20
+539,Tissi,Тисси,42.48917,46.14395,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Tissi,tind1238,#333399,#9900ff,2025-03-20
+540,Tissi-Akhitli,Тисси-Ахитли,42.501506,46.103923,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Tissi-Akhitli,tind1238,#333399,#9900ff,2025-03-20
+541,Khalikh,Халих,42.48467,46.09121,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Khalikh,tind1238,#333399,#9900ff,2025-03-20
+542,Echeda,Эчеда,42.43436,45.992398,Tindi,Avar-Andic,East Caucasian,NA,Tindi,Tindi,Тиндинский,NA,NA,NA,NA,NA,NA,Echeda,tind1238,#333399,#9900ff,2025-03-20
+543,Tukita,Тукита,42.57056,46.37278,Karata-Tukita,Avar-Andic,East Caucasian,NA,Karata-Tukita,NA,NA,NA,NA,NA,NA,NA,NA,Tukita,kara1474,#666699,#9900ff,2025-03-20
+544,Andi,Анди,42.7856,46.2639,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Andi,uppe1485,#003366,#9900ff,2025-03-20
+545,Ashali,Ашали,42.76963,46.30878,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Ashali,uppe1485,#003366,#9900ff,2025-03-20
+546,Gagatli,Гагатли,42.800361,46.292645,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Gagatli,uppe1485,#003366,#9900ff,2025-03-20
+547,Gunkha,Гунха,42.78968,46.28275,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Gunkha,uppe1485,#003366,#9900ff,2025-03-20
+548,Zilo,Зило,42.731394,46.319223,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Zilo,uppe1485,#003366,#9900ff,2025-03-20
+549,Mekheturi,Мехетури,42.70556,46.2375,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Mekheturi,uppe1485,#003366,#9900ff,2025-03-20
+550,Rikvani,Риквани,42.782304,46.319372,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Rikvani,uppe1485,#003366,#9900ff,2025-03-20
+551,Rushukha,Рушуха,42.715089999999996,46.28112,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Rushukha,uppe1485,#003366,#9900ff,2025-03-20
+552,Khando,Хандо,42.72694,46.23361,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Khando,uppe1485,#003366,#9900ff,2025-03-20
+553,Tsibilta,Цибилта,42.74322,46.24311,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Tsibilta,uppe1485,#003366,#9900ff,2025-03-20
+554,Chanko,Чанко,42.717936,46.246417,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Chanko,uppe1485,#003366,#9900ff,2025-03-20
+555,Shivor,Шивор,42.714662,46.256637,Andi,Avar-Andic,East Caucasian,NA,Andi,NA,NA,NA,NA,NA,NA,NA,NA,Shivor,uppe1485,#003366,#9900ff,2025-03-20
