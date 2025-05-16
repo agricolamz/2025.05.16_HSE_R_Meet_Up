@@ -20,6 +20,8 @@ editor_options:
 
 Мне хочется выразить благодарность Евгению Николаевичу Матерову за его блог и телеграм-канал "Наука и данные" (<https://t.me/naukaidannye>), которые значительно упростили написание данных материалов.
 
+Если Вам хочется изучить тему пространственного анализа, Вам нужно идти в [раздел Geospatial](https://www.bigbookofr.com/chapters/geospatial) ресурса Big Book of R, сейчас там уже 19 материалов, размером с книгу каждая.
+
 ```{r}
 #| include: false
 
@@ -74,6 +76,7 @@ library(leaflet.minicharts)
 
 ```{r}
 #| echo: false
+#| out-width: 100%
 
 knitr::include_graphics("images/01_geometries.png")
 ```
@@ -84,6 +87,7 @@ knitr::include_graphics("images/01_geometries.png")
 
 ```{r}
 #| echo: false
+#| fig-cap: "Всячески рекомендую посетить [страницу Доменика Ройе](https://dominicroye.github.io/project/): он создал очень много захватывающих дух визуализаций."
 
 knitr::include_graphics("images/02_snow_prob.jpg")
 ```
@@ -92,6 +96,7 @@ knitr::include_graphics("images/02_snow_prob.jpg")
 
 ```{r}
 #| echo: false
+#| fig-align: center
 
 knitr::include_graphics("images/03_map_algebra.png")
 ```
@@ -130,6 +135,7 @@ knitr::include_graphics("images/05-Merkator-2.png")
 
 ```{r}
 #| echo: false
+#| fig-cap: "Всячески рекомендую посетить [страницу Доменика Ройе](https://dominicroye.github.io/project/): он создал очень много захватывающих дух визуализаций."
 
 knitr::include_graphics("images/06_paris.png")
 ```
