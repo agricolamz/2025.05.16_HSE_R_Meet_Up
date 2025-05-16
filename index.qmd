@@ -44,7 +44,7 @@ library(leaflet.minicharts)
 ##  Обо мне
 
 - полевой исследователь (31 поездка, почти все на Кавказ)
-- фонетист, фонолог, квантитативный лингвист, занимаюсь линвистической географией
+- фонетист, фонолог, квантитативный лингвист, занимаюсь лингвистической географией
 - преподаю статистику с применением R
 - преподавал и руководил [мастерской по анализу данных](https://www.letnyayashkola.org/andan/) на Летней школе
 - записал онлайн курс ["Введение в анализ данных на R для гуманитарных и социальных наук"](https://openedu.ru/course/hse/IDAR/), [материалы](https://agricolamz.github.io/daR4hs/) доступны онлайн
@@ -78,7 +78,7 @@ library(leaflet.minicharts)
 knitr::include_graphics("images/01_geometries.png")
 ```
 
-Эти единицы поддерживают популярные пакеты для манипуляции с георграфическими объектами: `sp`, `sf` и другие. В данном разделе мы не будем учиться операциям с этими объектами (объединение, вычитание и т. п., подробности смотрите в документации к пакету `sp`). Все эти единицы относятся к векторному типу данных.
+Эти единицы поддерживают популярные пакеты для манипуляции с географическими объектами: `sp`, `sf` и другие. В данном разделе мы не будем учиться операциям с этими объектами (объединение, вычитание и т. п., подробности смотрите в документации к пакету `sp`). Все эти единицы относятся к векторному типу данных.
 
 Кроме того, существует отдельный тип географических данных --- растровый. Такой тип данных подразумевает, некоторую регулярную сетку измерений, например, квадратов, в которых произведен замер (количество выпавших осадков, высотность, граница суши и др.).
 
@@ -123,7 +123,7 @@ knitr::include_graphics("images/05-Merkator-2.png")
 ```
 
 - [веб-приложение](https://projectionwizard.org/), помогающее выбрать подходящую проекцию
-- [веб-приложение](https://mathigon.org/course/circles/spheres-cones-cylinders#sphere-maps), которое показывает как изменяются объекты при преобразовании с сферы на одну из четырех проекций (Меркатора, цилиндрическую, Робинсона, Моллвейде)
+- [веб-приложение](https://mathigon.org/course/circles/spheres-cones-cylinders#sphere-maps), которое показывает, как изменяются объекты при преобразовании с сферы на одну из четырех проекций (Меркатора, цилиндрическую, Робинсона, Моллвейде)
 - [Здесь](https://proj.org/en/latest/operations/projections/all_images.html) содержится список всех возможных проекций
 
 ### География + время
@@ -186,7 +186,7 @@ starodub |>
 
 :::
 
-Удалим надгробия для которых неизвестен пол и визуализируем.
+Удалим надгробия, для которых неизвестен пол и визуализируем.
 
 ::: {.panel-tabset}
 
@@ -231,15 +231,6 @@ starodub |>
 
 :::
 
-```{r}
-#| echo: false
-#| fig-align: center
-
-knitr::include_graphics("images/07_airplane.jpg")
-```
-
-Иногда при анализе следует вспоминать про ошибку выжившего и работу Абрахама Вальда.
-
 Благодаря пакету `leaflet.minicharts` можно еще сделать анимацию появления надгробий в зависимости от времени.
 
 ```{r}
@@ -264,7 +255,23 @@ leaflet() |>
                 width = 7)
 ```
 
-Мы рассмотрели обычные табличные данные, но а как же другие примитивы? С ними все сложнее. Скачаем полигоны в формате shape
+```{r}
+#| echo: false
+#| fig-align: center
+
+knitr::include_graphics("images/07_airplane.jpg")
+```
+
+Иногда при анализе следует вспоминать про ошибку выжившего и работу Абрахама Вальда.
+
+Мы рассмотрели обычные табличные данные, но а как же другие примитивы? С ними все сложнее.
+
+
+::: {.panel-tabset}
+
+### `ggplot2` 
+
+Скачаем полигоны в [формате Shapefile](https://en.wikipedia.org/wiki/Shapefile).
 
 ```{r}
 st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/akhvakhskiy.geoshape", as_tibble = TRUE) |>
@@ -310,15 +317,134 @@ districts |>
   ggplot() + 
   geom_sf(aes(geometry = geometry), fill = "grey95", color = "grey40")+
   theme_minimal()
+```
 
+Добавим реку:
+
+```{r}
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/andiyskoye_koysu.geoline", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) ->
+  andiyskoye_koysu
+
+districts |> 
+  ggplot() + 
+  geom_sf(aes(geometry = geometry), fill = "grey95", color = "grey40")+
+  geom_sf(aes(geometry = geometry), data = andiyskoye_koysu, color = "lightblue", linewidth = 2) +
+  theme_minimal()
+```
+
+Добавим населенные пункты.
+
+```{r}
 andic_languages <- read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/andic_languages.csv")
 
 districts |> 
   ggplot() + 
   geom_sf(aes(geometry = geometry), fill = "grey95", color = "grey40")+
+  geom_sf(aes(geometry = geometry), data = andiyskoye_koysu, color = "lightblue", linewidth = 2) +
   geom_point(aes(lon, lat, color = default_level), data = andic_languages)+
-  theme_minimal()
+  theme_minimal()+
+  ylim(42.2, 42.9)+
+  xlim(45.7, 46.7)+
+  labs(color = NULL, x = NULL, y = NULL)
 ```
+
+### `leaflet`
+
+Скачаем полигоны в [формате Shapefile](https://en.wikipedia.org/wiki/Shapefile).
+
+```{r}
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/akhvakhskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "akhvakhskiy") ->
+  akhvakhskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/botlikhskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "botlikhskiy") ->
+  botlikhskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/gumbetovskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "gumbetovskiy") ->
+  gumbetovskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/khunzakhskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "khunzakhskiy") ->
+  khunzakhskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/shamilskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "shamilskiy") ->
+  shamilskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/tlyaratinskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "tlyaratinskiy") ->
+  tlyaratinskiy
+
+st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/tsumadinskiy.geoshape", as_tibble = TRUE) |>
+  st_crop(xmin=-45, xmax=47, ymin=41, ymax=42.9) |> 
+  mutate(district = "tsumadinskiy") ->
+  tsumadinskiy
+
+akhvakhskiy |> 
+  bind_rows(botlikhskiy, gumbetovskiy, khunzakhskiy, shamilskiy, tlyaratinskiy, tsumadinskiy) ->
+  districts
+
+leaflet() |> 
+  addPolygons(color = "black",
+              opacity = 1,
+              weight = 1,
+              data = getMapData(leaflet(districts)))
+```
+
+Добавим реку:
+
+```{r}
+andiyskoye_koysu <- st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/andiyskoye_koysu.geoline", as_tibble = TRUE) 
+
+leaflet() |> 
+  addPolygons(color = "black",
+              opacity = 1,
+              weight = 1,
+              data = getMapData(leaflet(districts))) |> 
+  addPolylines(color = "lightblue",
+               opacity = 1, 
+               weight = 3,
+               data = getMapData(leaflet(andiyskoye_koysu))) 
+```
+
+Добавим населенные пункты.
+
+```{r}
+andic_languages <- read_csv("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/andic_languages.csv")
+
+andic_languages |> 
+  pull(default_level) |> 
+  colorFactor(scales::hue_pal()(9), domain = _) ->
+  pal
+
+andiyskoye_koysu <- st_read("https://raw.githubusercontent.com/agricolamz/2025.05.16_HSE_R_Meet_Up/refs/heads/main/data/andiyskoye_koysu.geoline", as_tibble = TRUE) 
+
+leaflet() |> 
+  addPolygons(color = "black",
+              opacity = 1,
+              weight = 1,
+              data = getMapData(leaflet(districts))) |> 
+  addPolylines(color = "lightblue",
+               opacity = 1, 
+               weight = 3,
+               data = getMapData(leaflet(andiyskoye_koysu))) |> 
+  addCircles(lng = ~lon,
+             lat = ~lat,
+             opacity = 1,
+             color = ~pal(default_level),
+             data = getMapData(leaflet(andic_languages)))
+```
+
+:::
 
 ## Моделирование
 
